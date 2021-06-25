@@ -7,8 +7,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -60,7 +63,9 @@ public class ListaAdaptador extends RecyclerView.Adapter<ListaAdaptador.viewHold
         public void actualizarDatos(ActividadTuristica actividadTuristica) {
             informacion.setText(actividadTuristica.getInformacion());
             nombrecomida1.setText(actividadTuristica.getActividad());
-            olaya1.setImageResource(actividadTuristica.getFotosolaya());
+            Picasso.with(itemView.getContext())
+                    .load(actividadTuristica.getFotosolaya())
+                    .into(olaya1);
 
 
             itemView.setOnClickListener(new View.OnClickListener() {
@@ -76,7 +81,7 @@ public class ListaAdaptador extends RecyclerView.Adapter<ListaAdaptador.viewHold
 
                 }
             });
-            };
+            }
 
         }
     }

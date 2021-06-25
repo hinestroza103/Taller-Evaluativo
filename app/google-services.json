@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "951542552062",
+    "project_id": "olaya-1fd52",
+    "storage_bucket": "olaya-1fd52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951542552062:android:add8171d8014b31ddf5caf",
+        "android_client_info": {
+          "package_name": "com.example.pueblo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951542552062-s3lpr7q8benuq54andmtcdmmvlcql25d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIQ4X9sKRLjybciFyOMtr8lczYq_Aq9Sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951542552062-s3lpr7q8benuq54andmtcdmmvlcql25d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

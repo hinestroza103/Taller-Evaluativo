@@ -1,11 +1,22 @@
 <resources>
     <string name="app_name">Olaya</string>
     <string name="Olaya">Olaya es un municipio de Colombia, localizado en la subregión Occidente del departamento de Antioquia. Limita al norte con el municipio de Liborina, al este con los municipios de Belmira y Sopetrán, por el sur con el municipio de Sopetrán y por el oeste con el municipio de Santa Fe de Antioquia. Su cabecera municipal está a 100 km de Medellín. Posee una extensión de 90 km², lo que lo hace el municipio más pequeño de la subregión, por debajo de Giraldo y Armenia, de 96 km² y 111 km², respectivamente. Además de una localidad colombiana.
-El municipio tiene como apelativo “Olaya tierra mágica de atardeceres y montañas”,. Dado que está ubicado en una región de suma actividad histórica, Olaya es considerado como uno de los municipios más antiguos del departamento.</string>
+    El municipio tiene como apelativo “Olaya tierra mágica de atardeceres y montañas”,. Dado que está ubicado en una región de suma actividad histórica, Olaya es considerado como uno de los municipios más antiguos del departamento.</string>
     <string name="Bandejapaisa">muy conocida por todos los antioqueños y en Olaya no se quedan atras un plato que se sirve en restaurantes del municipio  y en festividades como el dia de la antioqueñidad, tambien es muy comun ver este plato en los hogares a la hora del almuerzo.</string>
     <string name="Quebrada">Uno de los Actractivos principales que debes visitar si llegas al municipio con su cascada que arroja abundante agua,rodeada de diversidad de fauna y flora, y con su increible historia maravilla a todo aquel que lo visita, ya que se dice que etnias indigenas habitaban este lugar en tiempos pasados.</string>
     <string name="Iglesia">La iglesia tambien es un lugar muy atractivo de visitar es una de las mas antiguas del municipio, esta deslumbra en las epocas dicembrinas, ya que es una de las pocas que cuenta con un pesebre movil instalado en los adentros de esta. </string>
     <string name="Fiestasdelverano">Estas fiestas se celebran los primeros dias de enero una gran tradición que lleva generaciones en el municipio personas de diferentes partes llegan a disfrutar de estas, en este finde semana de fiestas se lleva acabo un reinado donde se invitan diferentes municipios de la zona a participar, y tambien un conjunto de orquestas que la gente disfruta.</string>
     <string name="virgen">Las fiestas Se celebran en el mes de Agosto en honor a la virgen de la nieves patrona del municipio, cuenta la leyenda que hace tiempo intentaron robar la estatua de la virgen, y a mitad del camino se hizo tan pesada que no pudieron llevar acabo el robo.</string>
+    <string name="opcion1">Acerca de</string>
+    <string name="opcion2">Ingles</string>
+    <string name="opcion3">Español</string>
+    <string name="descripcion">Mi nombre es Juan Pablo Hinestroza Ospina tengo 18 años.Actualmente soy estudiante del Cesde cursando el penultimo semestre,
+        de desarrollo de sotfware,Trabajo como practicante en EUNO CONSULTING,mi hobby favorito es jugar futbol mi equipo favorito es Atletico Nacional,
+        mi sueño es ser un gran desarrollador y cumplir todas mis metas propuestas.
+    </string>
+
+
+
+
 </resources>
 

@@ -5,9 +5,9 @@ import java.io.Serializable;
 public class ActividadTuristica implements Serializable {
     String informacion;
     String actividad;
-    int fotosolaya;
+    String fotosolaya;
 
-    public ActividadTuristica(String informacion, String actividad, int fotosolaya) {
+    public ActividadTuristica(String informacion, String actividad, String fotosolaya) {
         this.informacion = informacion;
         this.actividad = actividad;
         this.fotosolaya = fotosolaya;
@@ -29,11 +29,9 @@ public class ActividadTuristica implements Serializable {
         this.actividad = actividad;
     }
 
-    public int getFotosolaya() {
-        return fotosolaya;
-    }
+    public String getFotosolaya() { return fotosolaya; }
 
-    public void setFotosolaya(int fotosolaya) {
+    public void setFotosolaya(String fotosolaya) {
         this.fotosolaya = fotosolaya;
     }
 }

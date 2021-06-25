@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView
+
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -17,10 +18,11 @@
 
 
         <ImageView
-            android:id="@+id/olaya1"
+            android:id="@+id/olayaMain"
             android:layout_width="395dp"
             android:layout_height="292dp"
             android:src="@drawable/calle"
+            android:adjustViewBounds="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,7 +39,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/olaya1" />
+            app:layout_constraintTop_toBottomOf="@id/olayaMain" />
 
         <TextView
             android:id="@+id/informacion"
@@ -45,6 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:text="informacion"
+            android:textAlignment="center"
             android:textSize="22sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

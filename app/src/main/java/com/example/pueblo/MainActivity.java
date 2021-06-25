@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
+
 public class MainActivity extends AppCompatActivity {
 
 
@@ -23,14 +26,16 @@ public class MainActivity extends AppCompatActivity {
 
         informacion=findViewById(R.id.informacion);
         nombrecomida1=findViewById(R.id.nombrecomida1);
-        olaya1=findViewById(R.id.olaya1);
+        olaya1=findViewById(R.id.olayaMain);
 
         actividadTuristica =(ActividadTuristica)getIntent().getSerializableExtra("datosPueblo");
 
 
         informacion.setText(actividadTuristica.getInformacion());
         nombrecomida1.setText(actividadTuristica.getActividad());
-        olaya1.setImageResource(actividadTuristica.getFotosolaya());
+        Picasso.with(MainActivity.this)
+                .load(actividadTuristica.getFotosolaya())
+                .into(olaya1);
 
     }
 
